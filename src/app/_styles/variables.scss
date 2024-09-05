@@ -1,0 +1,30 @@
+:root {
+  --font-family: 'Jost', serif;
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+  --font-size-l: 24px;
+  --font-line-l: 326px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  // Размеры
+  --navbar-height: 50px;
+  --mobile-padding: 20px;
+  --account: 544px;
+
+  // Цвета
+  --color-white: #FFFFFF;
+  --color-black: #1F2734;
+  --color-green: #57E426;
+  --color-green-light: #1FBE84;
+  --color-background: #13161B;
+
+  //z-index
+  --z-index-header: 50;
+  --z-index-menu: 10;
+  --z-index-modal: 100;
+
+  // skeleton
+  --skeleton-color: #A1AFC5;
+  --skeleton-shadow: rgba(0 0 0 / 20%);
+}

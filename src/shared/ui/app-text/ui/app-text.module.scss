@@ -1,0 +1,36 @@
+.appText {
+  //font-family: var(--font-family);
+  word-break: break-word;
+
+  &.upperCase {
+    text-transform: uppercase;
+  }
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.black {
+  color: var(--color-black);
+}
+
+.grey {
+  color: var(--color-grey-light-4);
+}
+
+.orange {
+  color: var(--color-orange);
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.green {
+  color: var(--color-green);
+}

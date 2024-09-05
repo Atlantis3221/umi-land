@@ -1,0 +1,94 @@
+.appButton {
+  cursor: pointer;
+  transition: .3s;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--color-green);
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &.clear {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+  &.withPrice {
+    padding: 0;
+    justify-content: space-between;
+
+    .text {
+      padding: 12px;
+    }
+  }
+}
+
+.default {
+  padding: 24px;
+}
+
+.small {
+  padding: 16px;
+}
+
+.text {
+  flex-shrink: 0;
+
+  &.shrink {
+    flex-shrink: 1;
+  }
+}
+
+.green {
+  background-color: var(--color-green);
+  box-shadow: 0px 4px 31.3px 0px #57E42666;
+
+  &:hover {
+    background-color: var(--color-green-light);
+
+    .text {
+      color: var(--color-white);
+    }
+  }
+
+  .text {
+    color: var(--color-black);
+  }
+}
+
+.outline {
+  background-color: transparent;
+
+  &:hover {
+    background-color: var(--color-green);
+
+    .text {
+      color: var(--color-black);
+    }
+  }
+
+  .text {
+    color: var(--color-white);
+  }
+}
+
+.round {
+  border-radius: 50%;
+  background-color: var(--color-white);
+  padding: 19px;
+
+  :hover {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,8 @@
+.appContainer {
+	margin: 0 auto;
+	padding: 60px;
+
+	@media screen and (max-width: 768px) {
+		padding: 40px 12px;
+	}
+}

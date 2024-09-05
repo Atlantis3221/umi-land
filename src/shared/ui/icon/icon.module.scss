@@ -1,0 +1,27 @@
+.icon {
+  flex: 0 0 auto;
+
+  &.pointer {
+    cursor: pointer;
+  }
+}
+
+.white {
+  fill: var(--color-white);
+}
+
+.orange {
+  fill: var(--color-orange);
+}
+
+.red {
+  fill: var(--color-red);
+}
+
+.green {
+  fill: var(--color-green);
+}
+
+.grey {
+  fill: var(--color-black);
+}
