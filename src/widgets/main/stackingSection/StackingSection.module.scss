@@ -1,0 +1,13 @@
+.stacking {
+    background-image: url('../../../shared/assets/stacking.png');
+    padding: 180px 240px;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    
+    &Wrapper {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}

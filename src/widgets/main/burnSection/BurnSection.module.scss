@@ -1,0 +1,16 @@
+.burn {
+    padding: 180px;
+    background-color: #18202B;
+    border-radius: 40px;
+    // background-image: url('../../../shared/assets/burn_left.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+
+    &Wrapper {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}

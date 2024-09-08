@@ -22,7 +22,7 @@ const Header = () => {
         <div className={styles.headerActions}>
           
           <Button text='Обмен UMI' size='small' />
-          <Button text='Как начать?' theme='outline' size='small' />
+          <Button text='Как начать?' icon={false} theme='outline' size='small' />
 
           <div className={styles.headerIcons}>
             <i className="fas fa-search"></i>

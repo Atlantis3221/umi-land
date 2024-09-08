@@ -11,6 +11,11 @@
   overflow: hidden;
   border: 1px solid var(--color-green);
 
+  img {
+    width: 14px;
+    height: 14px;
+  }
+
   &:disabled {
     opacity: 0.5;
     cursor: not-allowed;
@@ -35,11 +40,15 @@
 }
 
 .default {
-  padding: 24px;
+  padding: 21px;
+}
+
+.large {
+  padding: 21px 65px;
 }
 
 .small {
-  padding: 16px;
+  padding: 21px;
 }
 
 .text {

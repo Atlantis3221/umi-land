@@ -4,6 +4,7 @@ import { TSizeButton, TThemeButton } from '@/shared/ui/button/ui/helper'
 import { Icon } from '@/shared/ui/icon'
 import { TIconTheme } from '@/shared/ui/icon/helper'
 import React, { type ButtonHTMLAttributes, type FC } from 'react'
+import arrowUp from '@/shared/assets/icons/arrow-up-right.svg'
 import cls from './button.module.scss'
 
 interface AppButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -12,7 +13,7 @@ interface AppButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 	size?: TSizeButton
 	text?: string
 	price?: string
-	icon?: React.FC<React.SVGProps<SVGSVGElement>>
+	icon?: boolean
 	iconTheme?: TIconTheme
 	isLoading?: boolean
 	image?: string
@@ -28,7 +29,7 @@ export const Button: FC<AppButtonProps> = (props: AppButtonProps) => {
 		size = 'default',
 		text = '',
 		price = '',
-		icon,
+		icon = true,
 		iconTheme = 'none',
 		children,
 		uppercase = false,
@@ -60,7 +61,7 @@ export const Button: FC<AppButtonProps> = (props: AppButtonProps) => {
 					className={classNames(cls.text, { [cls.shrink]: !!price.length }, [])}
 				/>
 			)}
-			{icon && <Icon Svg={icon} size={24} theme={iconTheme} />}
+			{icon && <img src={arrowUp} />}
 			{children}
 		</button>
 	)

@@ -1,0 +1,50 @@
+.tokenomic{
+    padding: 180px 240px;
+    display: flex;
+    gap: 84px;
+    background-image: url('../../../shared/assets/tokenomic_bg.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+
+    &Info {
+        max-width: 590px;
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    &Cards{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .firstRow {
+            display: flex;
+            gap: 15px;
+            margin-right: 84px;
+        }
+
+        .secondRow {
+            display: flex;
+            gap: 15px;
+            margin-left: 84px;
+        }
+    }
+
+    &Card {
+        width: 100%;
+        max-width: 335px;
+        background: #1E222996;
+        padding: 25px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+
+        img {
+            width: 75px;
+            height: 75px;
+        }
+    }
+}

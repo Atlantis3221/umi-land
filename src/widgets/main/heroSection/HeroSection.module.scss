@@ -3,6 +3,9 @@
 	justify-content: space-between;
 	align-items: center;
 	gap: 34px;
+	background-image: url('../../../shared/assets/hero_bg.png');
+	background-repeat: no-repeat;
+	background-position: 100%;
 
 	@media (min-width: 1024px) {
 		padding: 180px 240px;
@@ -52,7 +55,7 @@
 .buttonsWrapper {
 	align-items: center;
 	display: flex;
-	gap: 10px;
+	gap: 8px;
 }
 
 .heroVideo {

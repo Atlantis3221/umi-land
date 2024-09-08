@@ -50,8 +50,8 @@ const HeroSection = () => {
 				<hr className={cls.infoLine} />
 				<div className={cls.infoButtons}>
 					<div className={cls.buttonsWrapper}>
-						<Button text={'Обмен UMI'} />
-						<Button text={'Как начать?'} theme='outline' />
+						<Button size='large' text={'Обмен UMI'} />
+						<Button size='large' icon={false} text={'Как начать?'} theme='outline' />
 					</div>
 					<div className={cls.buttonsWrapper}>
 						<AppText text={'Скачать:'} />

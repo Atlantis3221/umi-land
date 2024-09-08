@@ -26,8 +26,8 @@ export const BlockchainSection = () => {
                         <AppText text={'Децентрализованный блокчейн UMI с пропускной способностью 65 535 транзакций в секунду, нулевыми комиссиями и открытым исходным кодом. Мы были первыми, кто доказал такую пропускную способность на практике в основной сети. '} />
                     </div>
                     <div className={cls.buttons}>
-                        <Button text={'Технология'} />
-                        <Button text={'Исходный код'} theme='outline' />
+                        <Button size='large' text={'Технология'} />
+                        <Button size='large' text={'Исходный код'} icon={false} theme='outline' />
                     </div>
                 </div>
             </div>

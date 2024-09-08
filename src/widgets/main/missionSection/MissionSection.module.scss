@@ -1,0 +1,18 @@
+.mission {
+    padding: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../shared/assets/mission_world.png');
+    background-position: center 100%;
+    background-repeat: no-repeat;
+
+
+    &Wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        max-width: 840px;
+    }
+}

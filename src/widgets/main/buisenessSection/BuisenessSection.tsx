@@ -13,7 +13,9 @@ export const BuisenessSection = () => {
             <div className={cls.info}>
                 <AppText text={'Бизнес и развлечения — это UMI'} fontSize={48} lineHeight={64} />
                 <AppText text={'UMI — монета для целевого применения с огромной экосистемой GameFi-приложений, продуктов для бизнеса, творчества и жизни. Не завтра, а уже сейчас.'} />
-                <Button text={'Экосистема'} className={cls.info__button} />
+                <div>
+                    <Button text={'Экосистема'} size='large' className={cls.info__button} />
+                </div>
             </div>
             <div className={cls.cards}>
                 <div className={cls.card} style={{ background: '#ffffff' }}>
