@@ -3,6 +3,10 @@
 	justify-content: space-between;
 	align-items: center;
 	gap: 34px;
+
+	@media (min-width: 1024px) {
+		padding: 180px 240px;
+	}
 }
 
 .heroInfo {
@@ -21,18 +25,34 @@
 		display: flex;
 		gap: 10px;
 		max-width: 272px;
+		align-items: flex-start;
 
 		.icon {
-			width: 20px;
+			display: flex;
+			align-items: center;
+			padding: 4px;
+			border-radius: 7px;
 			height: 20px;
-			background: var(--color-white);
+			background-color: #57E426;
+			box-shadow: 0px 4px 18px 0px #57E42654;
 		}
 	}
 }
 
 .infoLine {
-	border: 1px solid var(--color-green);
+	border: 1px solid #FFFFFF1A;
 	width: 100%;
+}
+
+.infoButtons {
+	display: flex;
+	gap: 20px;
+}
+
+.buttonsWrapper {
+	align-items: center;
+	display: flex;
+	gap: 10px;
 }
 
 .heroVideo {
@@ -41,3 +61,65 @@
 	height: 386px;
 	background-color: aliceblue;
 }
+
+.video {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 386px;
+	height: 386px;
+	background-color: #121212;
+	border-radius: 50%;
+	position: relative;
+	color: #ffffff;
+  }
+  
+  .circle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #00ff00;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	position: relative;
+  }
+  
+  .playButton {
+	background-color: #FFFFFF0D;
+	border: none;
+	padding: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+  
+	span {
+	  font-size: 24px;
+	}
+  }
+  
+  .duration {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #b3b3b3;
+  }
+  
+  .info {
+	text-align: center;
+	margin-top: 20px;
+  
+	h2 {
+	  font-size: 20px;
+	  margin-bottom: 5px;
+	}
+  
+	p {
+	  font-size: 14px;
+	  color: #b3b3b3;
+	}
+  }

@@ -1,0 +1,56 @@
+.buisenessSection {
+    padding: 240px;
+    background: url(../../../shared/assets/buiseness_bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+    display: flex;
+    gap: 130px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    &__button {
+        padding: 24px 62px;
+        width: fit-content;
+    }
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    width: 253px;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 21px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    .cardInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        img{
+            width: 65px;
+            height: 65px;
+        }
+    }
+
+    
+}
+
+.cardButton {
+    align-self: flex-end;
+    justify-self: flex-end;
+}

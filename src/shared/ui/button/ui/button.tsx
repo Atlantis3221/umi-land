@@ -53,8 +53,8 @@ export const Button: FC<AppButtonProps> = (props: AppButtonProps) => {
 				<AppText
 					text={text}
 					fontWeight={600}
-					fontSize={18}
-					lineHeight={24}
+					fontSize={16}
+					lineHeight={14}
 					align={'center'}
 					upperCase={uppercase}
 					className={classNames(cls.text, { [cls.shrink]: !!price.length }, [])}
