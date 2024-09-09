@@ -1,29 +1,16 @@
 
+import { MainPage } from '@/pages/main/MainPage'
 import './_styles/global.scss'
 import './_styles/reset.scss'
 import './_styles/variables.scss'
-// import Header from '@/widgets/layout/Header/Header'
-import HeroSection from '@/widgets/main/heroSection/HeroSection'
-import { BuisenessSection } from '@/widgets/main/buisenessSection/BuisenessSection'
-import { BlockchainSection } from '@/widgets/main/blockchainSection/BlockchainSection'
-import { StackingSection } from '@/widgets/main/stackingSection/StackingSection'
-import { BurnSection } from '@/widgets/main/burnSection/BurnSection'
-import { TokenomicSection } from '@/widgets/main/tokenomicSection/TokenomicSection'
-import { MissionSection } from '@/widgets/main/missionSection/MissionSection'
-import { AllAboutSection } from '@/widgets/main/allAboutSection/allAboutSection'
+import { WalletPage } from '@/pages/wallet/WalletPage'
 
 function App() {
 
   return (
     <div className="App">
-      <HeroSection />
-      <BuisenessSection />
-      <BlockchainSection />
-      <StackingSection />
-      <BurnSection />
-      <TokenomicSection />
-      <MissionSection />
-      <AllAboutSection />
+      <MainPage />
+      {/* <WalletPage /> */}
     </div>
   )
 }

@@ -1,0 +1,21 @@
+.createWallet {
+	padding: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&Wrapper {
+		width: 100%;
+		max-width: 710px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 25px;
+
+		.buttons {
+			display: flex;
+			gap: 10px;
+			align-self: center;
+		}
+	}
+}
